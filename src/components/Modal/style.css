@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../../assets/Lato/Lato-Regular.ttf");
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+#close-btn {
+  position: absolute;
+  margin-left: 45%;
+  color: crimson;
+  margin-top: -3%;
+}
+#cancelBtn {
+  color: crimson;
+}
+.contact-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+.contact-form {
+  max-width: 50%;
+  font-family: Lato, sans-serif;
+  border: 1px solid #18dcff;
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+  margin: -25% auto 0%;
+  z-index: 50;
+  position: relative;
+  background-color: #273040bd;
+  box-shadow: 0 0 150px #000000a6;
+}
+h2 {
+  margin-top: 35px;
+  text-align: center;
+}
+.form-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/*----mediaquery-----------*/
+/*----1024PX-----------*/
+@media (max-width: 1024px) {
+  .contact-form {
+    max-width: 50%;
+    width: 100%;
+    margin: -50% auto 0%;
+    padding: 2%;
+  }
+  #close-btn {
+    margin-left: 37%;
+  }
+}
+/*----550PX-----------*/
+@media (max-width: 550px) {
+  .contact-form {
+    max-width: 70%;
+    width: 100%;
+    margin: -52% auto 0%;
+    padding: 2%;
+  }
+  #close-btn {
+    margin-left: 40%;
+  }
+}
+/*----400PX-----------*/
+@media (max-width: 400px) {
+  .contact-form {
+    max-width: 70%;
+    width: 100%;
+    margin: -65% auto 0%;
+    padding: 2%;
+  }
+  #close-btn {
+    margin-left: 40%;
+  }
+}
+/*----350PX-----------*/
+@media (max-width: 350px) {
+  .contact-form {
+    max-width: 70%;
+    width: 100%;
+    margin: -63% auto 0%;
+    padding: 2%;
+  }
+  #close-btn {
+    margin-left: 40%;
+  }
+}
