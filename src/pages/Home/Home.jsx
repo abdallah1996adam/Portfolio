@@ -28,9 +28,8 @@ import { FaTwitter } from "react-icons/fa";
 const Home = () => {
   const [opneModal, setOpenModal] = useState(false);
 
+  let words = document.getElementsByClassName("word");
   useEffect(() => {
-    let words = document.getElementsByClassName("word");
-
     if (words) {
       let wordArray = [];
       let currentWord = 0;
@@ -89,7 +88,7 @@ const Home = () => {
       changeWord();
       setInterval(changeWord, 4000);
     }
-  }, []);
+  }, [words]);
 
   useEffect(() => {
     $(document).ready(function () {
@@ -133,7 +132,7 @@ const Home = () => {
               </div>
 
               <div className="link-section text-center d-none d-md-block d-sm-none">
-                <a href="#about">Sur moi</a>
+                <a href="#about">À propos</a>
               </div>
 
               <div className="copyright-section text-center">
@@ -154,12 +153,13 @@ const Home = () => {
               </div>
 
               <div className="social-links">
-                <Link to="#">
-                  <FaFacebookF />
-                </Link>
                 <a href="https://www.linkedin.com/in/abdallah-adam0">
                   <FaLinkedinIn />
                 </a>
+                <Link to="#">
+                  <FaFacebookF />
+                </Link>
+
                 <Link to="#">
                   <FaTwitter />
                 </Link>
@@ -188,12 +188,9 @@ const Home = () => {
                   <div className="row">
                     <div className="col-md-4">
                       <div className="navcolumn" id="nav-column-first">
-                        <h2>About</h2>
+                        <h2>Page d'accueil</h2>
                         <a className="cd-btn" href="/">
-                          Home
-                        </a>
-                        <a href="#about" className="cd-btn">
-                          Mon histoire
+                          Accueil
                         </a>
                       </div>
                     </div>
@@ -202,7 +199,7 @@ const Home = () => {
                         <h2>Mes projets</h2>
                         <a
                           className="cd-btn"
-                          href="https://evernote-clone-7e3b6.firebaseapp.com/"
+                          href="https://evernote-clone-7e3b6.web.app/"
                         >
                           Evernote Clone
                         </a>
@@ -216,7 +213,7 @@ const Home = () => {
                           className="cd-btn"
                           href="https://abdallah1996adam-shopping-website.netlify.app/"
                         >
-                          Ecommerce Website
+                          E-commerce Website
                         </a>
                       </div>
                     </div>
@@ -271,13 +268,14 @@ const Home = () => {
                 <div className="row d-flex  justify-content-center">
                   <div className="col-md-7">
                     <div className="abouttext" id="about">
-                      <h2>Salut, je m’appelle Abdallah</h2>
+                      <h2>Salut, Je suis Abdallah</h2>
                       <p>
-                        Ayant né au Soudan, J’ai traversé là méditerranée pour
-                        suivre mes études, passionner par le domaine de
-                        sécurité, amoureux de web, j’ai développé mes
-                        compétences en développement web grâce à ma formation
-                        chez Simplon et suivant des tutos sur Udemy. #FULLSTACK
+                        Amoureux du web et passionné par le domaine de sécurité
+                        informatique, j’ai développé mes compétences en
+                        développement web grâce à ma formation chez Simplon et
+                        en suivant des cours sur Udemy
+                        <br />
+                        #FULLSTACK
                       </p>
                     </div>
                   </div>
@@ -295,10 +293,10 @@ const Home = () => {
                       <div className="col-md-6">
                         <div className="strategy text-right">
                           <div className="about-icon">
-                            <div className="circle-shape"></div>
+                            <div className="circle-shape "></div>
                             <img
                               src={strategy}
-                              className="img-fluid"
+                              className="img-fluid img-fluid-small img-fluid-small-left"
                               width=""
                               height=""
                               alt="strategy"
@@ -306,7 +304,9 @@ const Home = () => {
                           </div>
 
                           <div className=""></div>
-                          <h3 className="heading">Apprendre Toujours</h3>
+                          <h3 className="heading heading-left">
+                            Aime Apprendre
+                          </h3>
                           {/* <p className="hideme">
                             Lorem ipsum, or lipsum as it is sometimes known, is
                             dummy text used in laying out print, graphic or web
@@ -322,7 +322,7 @@ const Home = () => {
                             <div className="circle-shape"></div>
                             <img
                               src={design}
-                              className="img-fluid"
+                              className="img-fluid img-fluid-small"
                               width=""
                               height=""
                               alt="design"
@@ -342,8 +342,8 @@ const Home = () => {
             </section>
             <div className="row d-flex  justify-content-center">
               <div className="col-md-7">
-                <div className="abouttext" id="about">
-                  <h2>Mes projets</h2>
+                <div className="abouttext abouttext-marging-small " id="about">
+                  <h2 className="abouttext-small">Mes projets</h2>
                 </div>
               </div>
             </div>
@@ -376,16 +376,17 @@ const Home = () => {
                           </h3>
                           <p>
                             C’est un projet que j’ai réalisé avec React et Redux
-                            pour la partie front at le back c'est avec firebase,
-                            le site vous permet de créer une note, modifier,
-                            supprimer ou ajouter dans votre liste de favori.
+                            pour la partie front-end et firebase pour le backend
                             <br />
-                            Le but de ce projet a été de pratiquer sur React et
-                            Redux.
+                            Le site vous permet de créer une note, de l'a
+                            modifier, supprimer ou de l'ajouter dans votre liste
+                            de favoris
+                            <br />
+                            Le but de ce projet est de pratiquer React et Redux
                           </p>
                           <a
                             className="cd-btn"
-                            href="https://evernote-clone-7e3b6.firebaseapp.com/"
+                            href="https://evernote-clone-7e3b6.web.app/"
                           >
                             Demo
                           </a>
@@ -406,14 +407,15 @@ const Home = () => {
                     >
                       <div className="workintro">
                         <div className="worktext">
-                          <h3>The Tours</h3>
+                          <h3 className="worktext-top">The Tours</h3>
                           <p>
                             C'est un template pour un site du voyage qui propose
-                            de tours touristiques, j'ai réalisé ce projet avec
-                            HTML CSS et JAVASCRIPT.
-                            <br /> Le but de ce projet a été de consolider mes
-                            connaissance en HTML CSS et l’animation avec
-                            JAVASCRIPT.
+                            des endroits touristiques
+                            <br /> J'ai réalisé ce projet avec HTML CSS et
+                            JAVASCRIPT
+                            <br /> Le but de ce projet est de consolider mes
+                            connaissances en HTML CSS et d'approfondir le
+                            JAVASCRIPT
                           </p>
                           <a
                             className="cd-btn"
@@ -466,17 +468,18 @@ const Home = () => {
                     >
                       <div className="workintro">
                         <div className="worktext text-right">
-                          <h3>Ecommerce Website</h3>
+                          <h3 className="worktext-top">E-commerce Website</h3>
                           <p>
-                            C'est un site de commerce qui consiste d'afficher la
-                            liste des produits, vous pouvez ajouter les produits
-                            dans votre panière où supprimer, pour le paiement
-                            c'est avec stripe. Pour réaliser ce projet j'ai
-                            utilisé React pour la partie front et l'API de
-                            Commerce.js pour la partie back.
+                            C'est un site e-commerce qui consiste à afficher la
+                            liste des produits. Vous pouvez ajouter les produits
+                            dans votre panier ou supprimer, pour le paiement
+                            c'est avec stripe <br />
+                            Pour réaliser ce projet j'ai utilisé React pour la
+                            partie front et l'API de Commerce.js pour la partie
+                            back
                             <br />
-                            Le but de ce projet a été de pratiquer sur
-                            l'implantation de stripe comme moyenne de paiement.
+                            Le but de ce projet est de savoir utiliser stripe
+                            comme moyenne de paiement
                           </p>
                           <a
                             className="cd-btn"
@@ -505,13 +508,13 @@ const Home = () => {
             <section className="contact-wrapper">
               <div className="contact-text">
                 <h1>
-                  vous etes arrivé,{" "}
+                  Vous êtes arrivés,{" "}
                   <Link
-                    className="cd-btn"
+                    className="cd-btn cd-btn-white"
                     to="#"
                     onClick={() => setOpenModal(true)}
                   >
-                    parlons
+                    Contacter-moi
                   </Link>
                   {opneModal && <Modal closeModal={setOpenModal} />}
                 </h1>

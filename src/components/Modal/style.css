@@ -11,7 +11,7 @@ button {
 }
 #close-btn {
   position: absolute;
-  margin-left: 45%;
+  margin-left: 47%;
   color: crimson;
   margin-top: -3%;
 }
@@ -57,42 +57,48 @@ h2 {
     padding: 2%;
   }
   #close-btn {
-    margin-left: 37%;
+    margin-left: 45%;
   }
 }
 /*----550PX-----------*/
 @media (max-width: 550px) {
   .contact-form {
-    max-width: 70%;
+    max-width: 80%;
     width: 100%;
     margin: -52% auto 0%;
     padding: 2%;
   }
   #close-btn {
-    margin-left: 40%;
+    margin-left: 43%;
+  }
+  .contact-btn {
+    font-size: 22px;
   }
 }
 /*----400PX-----------*/
 @media (max-width: 400px) {
   .contact-form {
-    max-width: 70%;
+    max-width: 80%;
     width: 100%;
     margin: -65% auto 0%;
     padding: 2%;
   }
   #close-btn {
-    margin-left: 40%;
+    margin-left: 43%;
+  }
+  .contact-btn {
+    font-size: 22px;
   }
 }
 /*----350PX-----------*/
 @media (max-width: 350px) {
   .contact-form {
-    max-width: 70%;
+    max-width: 80%;
     width: 100%;
     margin: -63% auto 0%;
     padding: 2%;
   }
   #close-btn {
-    margin-left: 40%;
+    margin-left: 43%;
   }
 }
