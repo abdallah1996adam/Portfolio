@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Aos from "aos";
 import $ from "jquery";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,6 +9,7 @@ import Modal from "../../components/Modal/Modal";
 
 //css
 import "./home.css";
+import "aos/dist/aos.css";
 //images
 import logo from "../../assets/img/logo2.png";
 import menu from "../../assets/img/menu.svg";
@@ -29,6 +31,10 @@ const Home = () => {
   const [opneModal, setOpenModal] = useState(false);
 
   let words = document.getElementsByClassName("word");
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   useEffect(() => {
     if (words) {
       let wordArray = [];
@@ -267,7 +273,7 @@ const Home = () => {
               <div className="container-fluid px-sm-0 p-0">
                 <div className="row d-flex  justify-content-center">
                   <div className="col-md-7">
-                    <div className="abouttext" id="about">
+                    <div className="abouttext" id="about" data-aos="fade-up">
                       <h2>Salut, Je suis Abdallah</h2>
                       <p>
                         Amoureux du web et passionné par le domaine de sécurité
@@ -291,7 +297,10 @@ const Home = () => {
                   <div className="col-md-10">
                     <div className="row" id="bootstrap-over">
                       <div className="col-md-6">
-                        <div className="strategy text-right">
+                        <div
+                          className="strategy text-right"
+                          data-aos="fade-left"
+                        >
                           <div className="about-icon">
                             <div className="circle-shape "></div>
                             <img
@@ -317,7 +326,7 @@ const Home = () => {
                       </div>
 
                       <div className="col-md-6">
-                        <div className="design text-left">
+                        <div className="design text-left" data-aos="fade-right">
                           <div className="about-icon">
                             <div className="circle-shape"></div>
                             <img
@@ -342,7 +351,11 @@ const Home = () => {
             </section>
             <div className="row d-flex  justify-content-center">
               <div className="col-md-7">
-                <div className="abouttext abouttext-marging-small " id="about">
+                <div
+                  className="abouttext abouttext-marging-small "
+                  id="about"
+                  data-aos="fade-up"
+                >
                   <h2 className="abouttext-small">Mes projets</h2>
                 </div>
               </div>
@@ -355,7 +368,7 @@ const Home = () => {
                     id="bootstrap-over"
                   >
                     <div className="col-md-5 col-sm-6 col-12">
-                      <div className="workpic">
+                      <div className="workpic" data-aos="fade-right">
                         <div className="big-circle-shape"></div>
                         <img
                           src={londonborn}
@@ -369,7 +382,10 @@ const Home = () => {
 
                     <div className="col-md-5 offset-md-1 col-sm-12 offset-sm-0">
                       <div className="workintro">
-                        <div className="worktext text-right">
+                        <div
+                          className="worktext text-right"
+                          data-aos="fade-left"
+                        >
                           <h3>
                             Evernote <br />
                             Clone
@@ -405,7 +421,7 @@ const Home = () => {
                       className="col-md-5 offset-md-1 col-sm-12 offset-sm-0"
                       id="first"
                     >
-                      <div className="workintro">
+                      <div className="workintro" data-aos="fade-right">
                         <div className="worktext">
                           <h3 className="worktext-top">The Tours</h3>
                           <p>
@@ -430,7 +446,7 @@ const Home = () => {
                       className="col-md-5 col-sm-6 col-12 offset-md-1"
                       id="second"
                     >
-                      <div className="workpic">
+                      <div className="workpic" data-aos="fade-left">
                         <div className="big-circle-shape big-media"></div>
                         <img
                           src={subaru}
@@ -450,7 +466,7 @@ const Home = () => {
                     id="bootstrap-over"
                   >
                     <div className="col-md-5 col-sm-6 col-12" id="third">
-                      <div className="workpic">
+                      <div className="workpic" data-aos="fade-right">
                         <div className="big-circle-shape"></div>
                         <img
                           src={valeyo}
@@ -466,7 +482,7 @@ const Home = () => {
                       className="col-md-5 offset-md-1 col-sm-12 offset-sm-0"
                       id="forth"
                     >
-                      <div className="workintro">
+                      <div className="workintro" data-aos="fade-left">
                         <div className="worktext text-right">
                           <h3 className="worktext-top">E-commerce Website</h3>
                           <p>
@@ -506,7 +522,7 @@ const Home = () => {
             </div>
 
             <section className="contact-wrapper">
-              <div className="contact-text">
+              <div className="contact-text" data-aos="fade-right">
                 <h1>
                   Vous êtes arrivés,{" "}
                   <Link
