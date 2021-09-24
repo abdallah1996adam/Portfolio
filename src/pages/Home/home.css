@@ -665,10 +665,10 @@
     text-decoration: underline;
   }
   .text h1 span {
-    font-size: 17vw;
+    font-size: 18vw;
   }
   .contact-text h1 {
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
 }
 /*----450PX-----------*/
@@ -707,10 +707,10 @@
     margin-top: 18%;
   }
   .text h1 span {
-    font-size: 17vw;
+    font-size: 18vw;
   }
   .contact-text h1 {
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
   .abouttext p {
     font-size: 19px;
@@ -770,10 +770,10 @@
   }
 
   .text h1 span {
-    font-size: 17vw;
+    font-size: 18vw;
   }
   .contact-text h1 {
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
   .abouttext h2 {
     font-size: 10vw;
@@ -798,7 +798,7 @@
     top: -23px !important;
   }
   .text h1 span {
-    font-size: 18vw;
+    font-size: 19vw;
   }
   .abouttext h2 {
     font-size: 10vw;
@@ -843,7 +843,7 @@
     text-decoration: underline;
   }
   .contact-text h1 {
-    font-size: 7vw;
+    font-size: 8vw;
   }
 }
 

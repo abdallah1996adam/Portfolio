@@ -127,14 +127,14 @@ const Home = () => {
           <div className="left-bar-section">
             <div className="left-content-inner d-flex justify-content-between flex-column h-100">
               <div className="logo-section">
-                <Link to="/">
+                <a href="/">
                   <img
                     src={logo}
                     style={{ margin: "14px 0px 0px 0px" }}
                     className="img-fluid"
                     alt="logo"
                   />
-                </Link>
+                </a>
               </div>
 
               <div className="link-section text-center d-none d-md-block d-sm-none">
@@ -162,13 +162,13 @@ const Home = () => {
                 <a href="https://www.linkedin.com/in/abdallah-adam0">
                   <FaLinkedinIn />
                 </a>
-                <Link to="#">
+                <a href="https://fr-fr.facebook.com/">
                   <FaFacebookF />
-                </Link>
+                </a>
 
-                <Link to="#">
+                <a href="https://twitter.com/?lang=fr">
                   <FaTwitter />
-                </Link>
+                </a>
               </div>
             </div>
           </div>
