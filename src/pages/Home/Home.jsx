@@ -314,9 +314,8 @@ const Home = () => {
 
                           <div className=""></div>
                           <h3 className="heading heading-left">
-                            Aime Apprendre
+                            J'Aime Apprendre
                           </h3>
-                          
                         </div>
                       </div>
 
@@ -334,7 +333,6 @@ const Home = () => {
                           </div>
 
                           <h3 className="heading">Love Design</h3>
-                          
                         </div>
                       </div>
                     </div>
@@ -385,7 +383,8 @@ const Home = () => {
                           </h3>
                           <p>
                             C’est un projet que j’ai réalisé avec React et Redux
-                            pour la partie front-end et firebase pour le back-end
+                            pour la partie front-end et firebase pour le
+                            back-end
                             <br />
                             Le site vous permet de créer une note, de l'a
                             modifier, supprimer ou de l'ajouter dans votre liste
@@ -423,7 +422,7 @@ const Home = () => {
                             <br /> J'ai réalisé ce projet avec HTML CSS et
                             JAVASCRIPT
                             <br /> Le but de ce projet est de consolider mes
-                            connaissances en HTML CSS et d'approfondir 
+                            connaissances en HTML CSS et d'approfondir
                             JAVASCRIPT
                           </p>
                           <a
