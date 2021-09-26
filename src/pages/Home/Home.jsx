@@ -385,7 +385,7 @@ const Home = () => {
                           </h3>
                           <p>
                             C’est un projet que j’ai réalisé avec React et Redux
-                            pour la partie front-end et firebase pour le backend
+                            pour la partie front-end et firebase pour le back-end
                             <br />
                             Le site vous permet de créer une note, de l'a
                             modifier, supprimer ou de l'ajouter dans votre liste
@@ -423,7 +423,7 @@ const Home = () => {
                             <br /> J'ai réalisé ce projet avec HTML CSS et
                             JAVASCRIPT
                             <br /> Le but de ce projet est de consolider mes
-                            connaissances en HTML CSS et d'approfondir le
+                            connaissances en HTML CSS et d'approfondir 
                             JAVASCRIPT
                           </p>
                           <a
