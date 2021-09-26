@@ -252,13 +252,16 @@ const Home = () => {
                 <div className="text">
                   <h1>
                     <span className="word d-flex justify-content-center">
-                      Salut.
+                      Bienvenue
                     </span>
                     <span className="word d-flex justify-content-center">
-                      C'est Moi.
+                      dans
                     </span>
                     <span className="word d-flex justify-content-center">
-                      The Artist.
+                      mon
+                    </span>
+                    <span className="word d-flex justify-content-center">
+                      univers.
                     </span>
                   </h1>
                 </div>
@@ -274,7 +277,7 @@ const Home = () => {
                 <div className="row d-flex  justify-content-center">
                   <div className="col-md-7">
                     <div className="abouttext" id="about" data-aos="fade-up">
-                      <h2>Salut, Je suis Abdallah</h2>
+                      <h2>Je m'appelle Abdallah</h2>
                       <p>
                         Amoureux du web et passionné par le domaine de sécurité
                         informatique, j’ai développé mes compétences en
@@ -332,7 +335,7 @@ const Home = () => {
                             />
                           </div>
 
-                          <h3 className="heading">Love Design</h3>
+                          <h3 className="heading">J'aime le Design</h3>
                         </div>
                       </div>
                     </div>
