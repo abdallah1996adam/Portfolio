@@ -314,7 +314,7 @@ const Home = () => {
 
                           <div className=""></div>
                           <h3 className="heading heading-left">
-                            J'Aime Apprendre
+                            J'aime Apprendre
                           </h3>
                         </div>
                       </div>
