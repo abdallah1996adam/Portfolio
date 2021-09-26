@@ -142,7 +142,7 @@ const Home = () => {
               </div>
 
               <div className="copyright-section text-center">
-                <p>Love What You Do</p>
+                <p>© Abdallah ADAM</p>
               </div>
             </div>
           </div>
@@ -316,12 +316,7 @@ const Home = () => {
                           <h3 className="heading heading-left">
                             Aime Apprendre
                           </h3>
-                          {/* <p className="hideme">
-                            Lorem ipsum, or lipsum as it is sometimes known, is
-                            dummy text used in laying out print, graphic or web
-                            designs. The passa ge is attributed to an unknown
-                            typesetter in the 15th century who is thought
-                          </p> */}
+                          
                         </div>
                       </div>
 
@@ -339,9 +334,7 @@ const Home = () => {
                           </div>
 
                           <h3 className="heading">Love Design</h3>
-                          {/* <p className="hideme">
-                            Être créatif est au cœur de tout ce que je fais.
-                          </p> */}
+                          
                         </div>
                       </div>
                     </div>

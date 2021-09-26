@@ -639,7 +639,7 @@
     font-size: 8vw;
   }
   .strategy .about-icon .circle-shape {
-    right: 140px;
+    right: 142px;
     top: -23px;
   }
   .abouttext-marging-small {
@@ -674,7 +674,7 @@
 /*----450PX-----------*/
 @media (max-width: 450px) {
   .strategy .about-icon .circle-shape {
-    right: 228px !important;
+    right: 230px !important;
     top: -30px !important;
     width: 150px;
     height: 150px;
@@ -735,7 +735,7 @@
 /*----400PX-----------*/
 @media (max-width: 400px) {
   .strategy .about-icon .circle-shape {
-    right: 180px !important;
+    right: 182px !important;
     top: -30px !important;
     width: 150px;
     height: 150px;
@@ -794,7 +794,7 @@
 /*----350PX-----------*/
 @media (max-width: 350px) {
   .strategy .about-icon .circle-shape {
-    right: 110px !important;
+    right: 112px !important;
     top: -23px !important;
   }
   .text h1 span {
@@ -850,7 +850,7 @@
 /*----300PX-----------*/
 @media (max-width: 300px) {
   .strategy .about-icon .circle-shape {
-    right: 20px !important;
+    right: 22px !important;
     top: -23px;
   }
   .abouttext h2 {
