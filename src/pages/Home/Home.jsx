@@ -261,7 +261,7 @@ const Home = () => {
                       mon
                     </span>
                     <span className="word d-flex justify-content-center">
-                      univers.
+                      univers!
                     </span>
                   </h1>
                 </div>
