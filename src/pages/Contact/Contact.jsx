@@ -124,6 +124,12 @@ export const Contact = () => {
                     >
                       E-commerce Website
                     </a>
+                    <a
+                      className="cd-btn"
+                      href="https://abdallah1996adam-movie-app.netlify.app/"
+                    >
+                      Movie App
+                    </a>
                   </div>
                 </div>
               </div>
