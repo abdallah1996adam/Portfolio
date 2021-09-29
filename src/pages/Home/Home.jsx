@@ -29,7 +29,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 
 const Home = () => {
-  const [opneModal, setOpenModal] = useState(false);
 
   let words = document.getElementsByClassName("word");
 
@@ -573,11 +572,10 @@ const Home = () => {
                   <a
                     className="cd-btn cd-btn-white"
                     href="/contact"
-                    // onClick={() => setOpenModal(true)}
                   >
                     Contacter-moi
                   </a>
-                  {opneModal && <Modal closeModal={setOpenModal} />}
+                 
                 </h1>
               </div>
 
