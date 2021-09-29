@@ -601,6 +601,21 @@
     position: fixed;
     width: 50px !important;
     height: 100%;
+
+    z-index: 2;
+  }
+  .right-bar-section {
+    position: fixed;
+    width: 50px !important;
+    height: 100%;
+    margin-right: 10px;
+    z-index: 2;
+  }
+  .left-bar-section {
+    position: fixed;
+    width: 50px !important;
+    height: 100%;
+    margin-left: 10px;
     z-index: 2;
   }
 

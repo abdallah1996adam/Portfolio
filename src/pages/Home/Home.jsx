@@ -22,6 +22,7 @@ import londonborn from "../../assets/img/not2.png";
 import subaru from "../../assets/img/toursclone-removebg.png";
 import valeyo from "../../assets/img/commerce.png";
 import wavy from "../../assets/img/wavy2.png";
+import movie from "../../assets/img/movie.png";
 //icons
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -503,6 +504,55 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
+                <div className="work work4">
+                  <div
+                    className="row  d-flex align-items-center"
+                    id="bootstrap-over"
+                  >
+                    <div className="col-md-5 col-sm-6 col-12">
+                      <div className="workpic" data-aos="fade-left">
+                        <div className="big-circle-shape"></div>
+                        <img
+                          src={movie}
+                          className="img-fluid"
+                          width=""
+                          height=""
+                          alt="london"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="col-md-5 offset-md-1 col-sm-12 offset-sm-0">
+                      <div className="workintro">
+                        <div
+                          className="worktext text-right"
+                          data-aos="fade-left"
+                        >
+                          <h3>Movie App</h3>
+                          <p>
+                            C’est un projet que j’ai réalisé avec React et
+                            Material-ui pour la partie front-end et l'API
+                            themoviedb pour le back-end
+                            <br />
+                            L'app vous permet de trouver les derniers films et
+                            des séries, vous pouvez également chercher votre
+                            film ou série préféré, je vous laisse découvrir le
+                            reste :)
+                            <br />
+                            Le but de ce projet est de pratiquer React avec
+                            Material-ui
+                          </p>
+                          <a
+                            className="cd-btn"
+                            href="https://abdallah-1996-movie-app.netlify.app/"
+                          >
+                            Demo
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </section>
 
@@ -520,13 +570,13 @@ const Home = () => {
               <div className="contact-text" data-aos="fade-right">
                 <h1>
                   Vous êtes arrivés,{" "}
-                  <Link
+                  <a
                     className="cd-btn cd-btn-white"
-                    to="#"
-                    onClick={() => setOpenModal(true)}
+                    href="/contact"
+                    // onClick={() => setOpenModal(true)}
                   >
                     Contacter-moi
-                  </Link>
+                  </a>
                   {opneModal && <Modal closeModal={setOpenModal} />}
                 </h1>
               </div>
