@@ -245,6 +245,7 @@ main .cd-main-content2::after {
 }
 .fluid2.lbdark2 {
   background-color: #121822;
+  overflow: hidden;
 }
 
 .fluid2 {
@@ -253,6 +254,7 @@ main .cd-main-content2::after {
   margin: 145px auto;
   border-radius: 50%;
   animation: rotate 15s infinite;
+  overflow: hidden;
 }
 @media (max-width: 650px) {
   .fluid2 {
@@ -262,6 +264,7 @@ main .cd-main-content2::after {
 
     border-radius: 50%;
     animation: rotate 15s infinite;
+    overflow: hidden;
   }
 }
 @keyframes rotate {

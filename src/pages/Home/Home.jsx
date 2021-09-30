@@ -29,7 +29,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 
 const Home = () => {
-
   let words = document.getElementsByClassName("word");
 
   useEffect(() => {
@@ -225,7 +224,7 @@ const Home = () => {
                           className="cd-btn"
                           href="https://abdallah1996adam-movie-app.netlify.app/"
                         >
-                         Movie App
+                          Movie App
                         </a>
                       </div>
                     </div>
@@ -515,7 +514,7 @@ const Home = () => {
                     id="bootstrap-over"
                   >
                     <div className="col-md-5 col-sm-6 col-12">
-                      <div className="workpic" data-aos="fade-left">
+                      <div className="workpic" data-aos="fade-right">
                         <div className="big-circle-shape"></div>
                         <img
                           src={movie}
@@ -575,13 +574,9 @@ const Home = () => {
               <div className="contact-text" data-aos="fade-right">
                 <h1>
                   Vous êtes arrivés,{" "}
-                  <a
-                    className="cd-btn cd-btn-white"
-                    href="/contact"
-                  >
+                  <a className="cd-btn cd-btn-white" href="/contact">
                     Contacter-moi
                   </a>
-                 
                 </h1>
               </div>
 
