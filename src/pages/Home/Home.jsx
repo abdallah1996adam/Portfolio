@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
 import Aos from "aos";
 import $ from "jquery";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Modal from "../../components/Modal/Modal";
 
 //css
 import "./home.css";
