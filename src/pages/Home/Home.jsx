@@ -4,7 +4,6 @@ import $ from "jquery";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 //css
 import "./home.css";
 import "aos/dist/aos.css";
