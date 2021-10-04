@@ -163,7 +163,7 @@ main .cd-main-content2::after {
     width: 100% !important;
   }
   .paperplane2 {
-    top: 40vh !important;
+    top: 42vh !important;
   }
 }
 @media (max-width: 850px) {
@@ -295,7 +295,7 @@ main .cd-main-content2::after {
 }
 @media (max-width: 650px) {
   .bannertxtc2 h1 {
-    font-size: 9vw !important;
+    font-size: 11vw !important;
     letter-spacing: 0px !important;
   }
   .bannertxtc2 {
