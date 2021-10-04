@@ -544,3 +544,18 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
 }
+.btn-send {
+  color: #00e5ea;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: underline;
+  font-size: 20px;
+  display: block;
+  padding: 0;
+  background-color: transparent;
+  letter-spacing: -1px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+}
