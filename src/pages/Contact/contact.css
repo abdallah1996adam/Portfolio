@@ -234,8 +234,8 @@ main .cd-main-content2::after {
 }
 @media (max-width: 850px) {
   .splatoverlay2 {
-    width: 80%;
-    top: 10%;
+    width: 65%;
+    top: 15%;
     left: 20%;
     z-index: 0;
   }
