@@ -40,6 +40,7 @@ export const Contact = () => {
       alert("S'il vous plaît verfiy que vous êtes un humain !");
     }
   };
+  
   const verifyChange = () => {
     setIsVerified(true);
   };

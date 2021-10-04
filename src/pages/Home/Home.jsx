@@ -154,6 +154,9 @@ const Home = () => {
                 </span>
               </div>
 
+              <div className="link-section text-center d-none d-md-block d-sm-none">
+                <a href="/contact">Contacter-moi</a>
+              </div>
               <div className="social-links">
                 <a href="https://www.linkedin.com/in/abdallah-adam0">
                   <FaLinkedinIn />
