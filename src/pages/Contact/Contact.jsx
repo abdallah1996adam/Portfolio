@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect,useState } from "react";
 import { useHistory } from "react-router";
 import $ from "jquery";
 import Recaptcha from "react-google-recaptcha";
@@ -40,7 +40,7 @@ export const Contact = () => {
       alert("S'il vous plaît verfiy que vous êtes un humain !");
     }
   };
-  
+
   const verifyChange = () => {
     setIsVerified(true);
   };
