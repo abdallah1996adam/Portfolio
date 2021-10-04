@@ -279,7 +279,7 @@ const Home = () => {
                 <div className="row d-flex  justify-content-center">
                   <div className="col-md-7">
                     <div className="abouttext" id="about" data-aos="fade-up">
-                      <h2>Je m'appelle Abdallah</h2>
+                      <h2>Salut, Je m'appelle Abdallah</h2>
                       <p>
                         Amoureux du web et passionné par le domaine de sécurité
                         informatique, j’ai développé mes compétences en
