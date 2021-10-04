@@ -1,7 +1,6 @@
-import React, { useEffect,useState } from "react";
+import React, { useEffect } from "react";
 import { useHistory } from "react-router";
 import $ from "jquery";
-import Recaptcha from "react-google-recaptcha";
 
 import "./contact.css";
 //icons
@@ -18,7 +17,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export const Contact = () => {
   const history = useHistory();
-  const [isverified, setIsVerified] = useState(false);
 
   useEffect(() => {
     $(document).ready(function () {
@@ -33,16 +31,9 @@ export const Contact = () => {
   }, []);
   const handleClick = (e) => {
     e.preventDefault();
-    if (isverified === true) {
-      alert("Merci pour le message. Je vous contacterai bientôt !");
-      history.push("/");
-    } else {
-      alert("S'il vous plaît verfiy que vous êtes un humain !");
-    }
-  };
 
-  const verifyChange = () => {
-    setIsVerified(true);
+    alert("Merci pour le message. Je vous contacterai bientôt !");
+    history.push("/");
   };
 
   return (
@@ -207,10 +198,7 @@ export const Contact = () => {
                     ></textarea>
                     <br />
                   </div>
-                  <Recaptcha
-                    onChange={verifyChange}
-                    sitekey="6LeSV6wcAAAAACEXUY_nYdoOALEYuvTkIa6bDocY"
-                  />
+
                   <button className="btn-send" onClick={(e) => handleClick(e)}>
                     Envoyer !
                   </button>
