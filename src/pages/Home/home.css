@@ -724,7 +724,7 @@
     justify-content: center;
   }
   .abouttext h2 {
-    font-size: 10vw;
+    font-size: 8vw;
   }
   .worktext h3 {
     font-size: 38px;
@@ -802,7 +802,7 @@
     font-size: 6.5vw;
   }
   .abouttext h2 {
-    font-size: 10vw;
+    font-size: 8vw;
   }
   .worktext h3 {
     font-size: 38px;
@@ -827,7 +827,7 @@
     font-size: 19vw;
   }
   .abouttext h2 {
-    font-size: 10vw;
+    font-size: 8vw;
   }
   .abouttext-samll {
     font-size: 33px;
@@ -880,7 +880,7 @@
     top: -23px;
   }
   .abouttext h2 {
-    font-size: 10vw;
+    font-size: 8vw;
   }
   .abouttext-marging-small {
     margin: 16px auto;
